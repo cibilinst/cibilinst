@@ -1,8 +1,8 @@
 class cibilinst::ci{
 	package{['dropbox', 'g++' ]:
-	 ensure => absent, 
+	 ensure => present, 
 	 }
 	package{'cowsay':
-	ensure => present,
+	ensure => absent,
 	}
 }
